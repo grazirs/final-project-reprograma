@@ -1,0 +1,35 @@
+.cards_home {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2rem;
+
+}
+
+.card_title-home {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+
+}
+
+.card_home-reason {
+    width: 250px;
+    height: 210px;
+    background-color: #FAD02C;;
+    margin: 1rem;
+    border-radius: 0.8rem;
+}
+
+.icon {
+    margin-top:1.5rem;
+}
+
+.card_home-content {
+
+    text-align: center;
+    color: rgb(56, 55, 55);
+    font-weight: 600;
+    padding: 1rem;
+    font-size: 1.1rem;
+}

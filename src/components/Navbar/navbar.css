@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position: fixed;
+    background-color: rgb(10, 10, 10);
+    text-align: center;
+    padding: 1.2rem;
+    font-size: 0.8rem;
+    width: 100%;
+    z-index: 1;
+}
+
+a {
+
+    color: white;
+    margin-right: 1.5rem;
+    text-decoration: none;
+    font-weight: 500;
+
+    
+}
+
+li{
+    list-style: none;
+}

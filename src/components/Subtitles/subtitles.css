@@ -1,0 +1,20 @@
+.titlepage {
+    font-size: 1.5rem;
+    padding: 4.5rem 2rem 0rem 5rem;
+    display: flex;
+    position: relative;
+  
+
+}
+
+.titlepage::before {
+    content: '';
+    position: absolute;
+    margin-left: 5rem;
+    height: 4px;
+    width: 140px;
+    bottom: 0px;
+    left: 0;
+    border-radius: 8px;
+    background: linear-gradient(45deg, #E21868, #FAD02C);
+}
