@@ -5,20 +5,19 @@ import FavoriteIcon from '@mui/icons-material/Favorite';
 import VolunteerActivismIcon from '@mui/icons-material/VolunteerActivism';
 import { pink } from '@mui/material/colors';
 import { Box } from '@mui/system';
-
+import GuMoon from '../../assets/gumoonyoung.jpg'
 
 const ContentHome = () => {
     return (
         <>
             <h3 className='card_title-home'>Motivos para adquirir nossos produtos</h3>
-            <div>
+            <div className="picture">
+                <img src={GuMoon} alt="foto do bordado" />
                 <div className="cards_home">
                     <div className="card_home-reason">
                         <Box sx={{display:'flex', justifyContent:'center'}}>
                         <VolunteerActivismIcon className='icon'sx={{ color:pink[500], fontSize: 40}}/>
                         </Box>
-
-
                         <p className="card_home-content">
                             Todos os bordados são feitos à mão com muito carinho e amor!
                         </p>
@@ -49,6 +48,10 @@ const ContentHome = () => {
                     </div>
                 </div>
             </div>
+            
+            
+                   
+        
         </>
     )
 }

@@ -1,0 +1,13 @@
+.pictures img{
+    width: 500px;
+    height: 510px;
+ 
+}
+
+.pictures{
+    display: flex;
+justify-content: center;
+height: 550px;
+
+
+}

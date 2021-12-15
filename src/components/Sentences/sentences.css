@@ -1,0 +1,11 @@
+.phrase{
+    font-family: 'Corinthia', cursive;
+    font-size: 4rem;
+    text-align: center;
+    margin: 3rem;
+    height: 120px;
+}
+
+#first-sentence{
+    text-align: right;
+}
