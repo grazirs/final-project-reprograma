@@ -3,10 +3,13 @@ import Background from "../components/Background/Background"
 import  Subtitles  from "../components/Subtitles/Subtitles"
 import SectionProducts from "../components/SectionProducts/SectionProducts"
 import ThemeEmbroidery from '../assets/themeEmbroidery.png'
-import TshirtEmbroidery from '../assets/starwars.jpg'
+import TshirtEmbroidery from '../assets/t-shirts.png'
 import MiniEmbroidery from '../assets/miniEmbroidery.png'
 import Interactive from '../assets/interactive.jpg'
+import Package from '../assets/package.jpg'
+import Package2 from '../assets/package2.jpg'
 import Footer from "../components/Footer/Footer"
+import PackagesInt from "../components/PackagesInt/PackagesInt"
 
 
 
@@ -23,7 +26,14 @@ const Products = ()=>{
             <SectionProducts category='Bordados em chaveiros' categoryText='Os chaveiros são em mini molduras circulares de 4cm e acompanham um tassel de linha'>{MiniEmbroidery}</SectionProducts>
             </div>
             <Subtitles>Bordado Interativo</Subtitles>
-            <SectionProducts categoryText='Os bordados interativos podem ser tanto em bastidor quanto em camisa. Consiste na adição do código bordado de uma música disponível no Spotify. '>{Interactive}</SectionProducts>
+            <SectionProducts className='category' categoryText='Os bordados interativos podem ser tanto em bastidor quanto em camisa. Consiste na adição do código bordado de uma música disponível no Spotify. '>{Interactive}</SectionProducts>
+            <Subtitles>Embalagem Interativa</Subtitles>
+            <div className="pack-interactive">
+
+            <PackagesInt>{Package}</PackagesInt>
+            <PackagesInt>{Package2}</PackagesInt>
+            </div>
+            <SectionProducts className='pack' categoryText='As embalagens interativas são uma opção para deixar seu presente mais estilizado. Consiste na adição do código desenhado de uma música disponível no Spotify. As embalagens interativas não têm custos adicionais.'></SectionProducts>
              <Footer></Footer>
         </>
     )

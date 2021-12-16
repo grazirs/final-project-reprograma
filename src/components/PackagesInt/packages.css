@@ -1,0 +1,12 @@
+.pack img{
+  max-width: 500px;
+  max-height: 500px;
+}
+.pack-interactive{
+
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-content: center;
+margin-top: 2rem;
+}
