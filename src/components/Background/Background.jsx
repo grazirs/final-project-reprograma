@@ -1,4 +1,4 @@
-import BackgroundPicture from '../../assets/rectangle.png'
+import BackgroundPicture from '../../assets/products.png'
 import './background.css'
 
 const Background = ()=>{

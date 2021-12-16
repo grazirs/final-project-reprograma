@@ -1,4 +1,11 @@
 .photo-home{
-    height: 300px;
+    height: 350px;
     width: 100%;
+}
+
+@media (min-width:900px) {
+    .photo-home{
+        height: 900px;
+        width: 100%;
+    }
 }

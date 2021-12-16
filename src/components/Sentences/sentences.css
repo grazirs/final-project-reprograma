@@ -6,6 +6,10 @@
     height: 120px;
 }
 
-#first-sentence{
-    text-align: right;
+.first-sentence p{
+   
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    text-align: justify;
+    padding: 0rem 8rem;
 }

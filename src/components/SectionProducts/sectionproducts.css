@@ -1,0 +1,42 @@
+.products img{
+    max-height: 500px;
+    max-width: 500px;
+}
+
+.category, .products{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.products h3{
+    font-size: 1.5rem;
+    text-align: center;
+}
+.products{
+    margin: 2rem;
+}
+
+.products p{
+    font-size: 1.2rem;
+    text-align: justify;
+    padding: 1rem;
+}
+
+@media (min-width:1024px) {
+    .category{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+    }
+
+    
+.products p{
+    font-size: 1.2rem;
+    text-align: justify;
+    padding: 2rem;
+}
+
+}
