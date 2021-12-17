@@ -1,9 +1,9 @@
 
 import Navbar from '../components/Navbar/Navbar'
-import Footer from '../components/Footer/Footer'
+import Header from '../components/Header/Header'
 import Subtitles from '../components/Subtitles/Subtitles'
 import OurTeam from '../components/OurTeam/OurTeam'
-import Header from '../components/Header/Header'
+import Footer from '../components/Footer/Footer'
 
 const About = () => {
 
@@ -11,10 +11,8 @@ const About = () => {
         <>
             <Navbar/>
             <Header></Header>
-          
              <Subtitles>Nosso Time</Subtitles> 
              <OurTeam></OurTeam>
-            
             <Footer></Footer>
         </>
     )

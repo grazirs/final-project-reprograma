@@ -1,7 +1,5 @@
 .picture img{
-    
-    width: 500px;
-    height: 510px;
+    height: 410px;
     margin: 3rem;
     border-radius: 0rem 1rem;
 }
@@ -9,17 +7,13 @@
 .picture{
     display: flex;
 justify-content: center;
-
-
+flex-wrap: wrap;
 }
 .cards_home {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    height: 200px;
     margin-top: 3rem;
-
 
 }
 
@@ -50,4 +44,31 @@ justify-content: center;
     font-weight: 600;
     padding: 1rem;
     font-size: 1.1rem;
+}
+
+@media (min-width:800px) {
+
+
+.picture{
+    flex-wrap: nowrap;
+
+
+}
+
+.picture img{
+    height: 510px;
+   
+}
+.cards_home { 
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 250px;
+    margin-top: 3rem;
+
+}
+
+
+
 }

@@ -23,7 +23,7 @@ const OurTeam = () => {
                 <div className="colaborator">
                 <div className='colaborator-text'>
                         <h3>Joana Angélica</h3>
-                        <p>Prazer! Sou Designer textil da BeMagic Ateliê.</p>
+                        <p>Prazer! Sou Designer textil da BeMagic Ateliê. Amo o mundo da moda e costura em geral. Sou responsável por eternizar a ilustração com as linhas. A arte de bordar exige bastante paciência e dedicação. </p>
                     </div>
                 <img src={Joana} alt="foto da colaboradora" className="colaborator-img" />
                     

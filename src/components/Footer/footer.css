@@ -1,9 +1,55 @@
-#text-footer{
+.text p{
     background-color: rgb(10, 10, 10);
     color: white;
-    padding: 1.2rem;
+    margin: 0;
+    font-size: 0.8rem;
     text-align: center;
+    padding-bottom: 0.8rem;
+}
+
+.rodape{
+    height: 110px;
+    background-color: rgb(10, 10, 10);
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    padding: 30px 0px;
+}
+
+footer .social-media h4{
+    
+    font-size: 16px;
+    margin: 15px 10px;
+    text-align: center;
+
+}
+footer ul{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+footer ul li svg{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+footer ul li svg:hover {
+    stroke: rgb(235, 118, 23);
+    transition: all 1s;
+    transform: scale(1.2);
+    }
+
+footer .payment h4{
+    font-size: 16px;
+    margin: 15px 10px;
+    text-align: center;
+
+}
+
+
 
     
 
-}

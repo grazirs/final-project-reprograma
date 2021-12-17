@@ -1,11 +1,11 @@
 .photo-home{
-    height: 350px;
+    height: 325px;
     width: 100%;
 }
 
 @media (min-width:900px) {
     .photo-home{
-        height: 800px;
+        height: 850px;
         width: 100%;
     }
 }

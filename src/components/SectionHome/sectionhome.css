@@ -1,13 +1,32 @@
 .pictures img{
-    width: 500px;
-    height: 510px;
+   width: 150px;
+    height: 250px;
  
 }
 
 .pictures{
     display: flex;
 justify-content: center;
-height: 550px;
+
 
 
 }
+
+@media (min-width:800px) {
+
+
+    .pictures img{
+        width: 500px;
+         height: 500px;
+      
+     }
+     
+     .pictures{
+         display: flex;
+     justify-content: center;
+     height: 550px;
+     
+     
+     }
+    
+    }
