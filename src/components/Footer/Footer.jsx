@@ -10,12 +10,11 @@ const Footer = () => {
     return (
         <>
         <footer>
-        <div class="rodape">
-       
-        <div class="payment">
+        <div className="rodape">
+        <div className="payment">
         <h4>Formas de pagamento</h4>
             <ul>
-                <li class="card-type"/>
+                <li className="card-type"/>
                 <Box sx={{display:'flex', justifyContent:'center'}}>
                         <CreditCardIcon className='icon'sx={{ color:pink[300], fontSize: 30}}/>
                         </Box>
@@ -27,10 +26,9 @@ const Footer = () => {
                         <AttachMoneyIcon className='icon'sx={{ color:pink[300], fontSize: 30}}/>
                         </Box>
                 
-               
             </ul>
         </div>
-        <div class="social-media">
+        <div className="social-media">
         <h4>Nos acompanhem:</h4>
             <ul>
             <Box sx={{display:'flex', justifyContent:'right'}}>
@@ -42,8 +40,8 @@ const Footer = () => {
             </ul>
         </div>
     </div>
-        <div class="text">
-                <p>Copyright © 2021 Be Magic Ateliê| Todos os direitos reservados. Desenvolvido por Graziele Ribeiro Santos</p>
+        <div className="text">
+                <p>Copyright © 2021 Be Magic Ateliê | Todos os direitos reservados. Desenvolvido por Graziele Ribeiro Santos</p>
             </div>
            
     </footer>
